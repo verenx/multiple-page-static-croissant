@@ -29,6 +29,11 @@ main {
     padding: 30px;
 }
 
+.main-info-paragraph {
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
 .contact-email {
     color: var(--accent-color);
     text-decoration: none;
