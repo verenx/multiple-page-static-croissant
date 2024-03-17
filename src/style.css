@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #A9B8A3;
+    --secondary-color: #dfd8e6;
+    --accent-color: #B2424E;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+header {
+    margin: 30px;
+}
+
+h1{
+    color: var(--accent-color);
+    font-weight: 900;
+    font-size: 55px;;
+}
+
+h1, p {
+    text-align: center;
+}
+
+main {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: var(--secondary-color);
+    padding: 30px;
+}
+
+.contact-email {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.website-links {
+    font-size: 18px;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+
+
